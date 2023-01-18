@@ -1,0 +1,16 @@
+{
+    "name": "Wikipedia Vector Skin",
+    "version": "1.0",
+    "description": "Adds the string ?useskin=vector to the end of the URL when visiting any Wikipedia page.",
+    "permissions": [
+        "*://*.wikipedia.org/*",
+        "webRequest",
+        "webRequestBlocking"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "manifest_version": 2
+}
